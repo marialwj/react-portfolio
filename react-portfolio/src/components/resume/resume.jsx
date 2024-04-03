@@ -9,28 +9,26 @@ import resumePdf from '../../assets/resume.pdf'; // Link to your resume PDF
 export const Resume = () => {
     return (
         <section className={styles.container} id="resume">
-            <h2 className={styles.title}>Resume</h2>
+            <h2 className={styles.title}>Resume/Proficiencies</h2>
             <div className={styles.content}>
                 <ul className={styles.resumeItems}>
                     <li className={styles.resumeItem}>
                         {/* <img src={educationIcon} alt="Education icon" className={styles.icon} /> */}
                         <div className={styles.resumeItemText}>
-                            <h3>Education</h3>
-                            <p>Details about your educational background...</p>
+                            <h3>Frontend Proficiencies</h3>
+                            <p>♥︎ HTML5, CSS3, JavaScript</p>
+                            <p>♥︎ React, Redux, Node.js, Express, Bootstrap, jQuery</p>
+                            <p>♥︎ Responsive Web Desigign, Cross-Browser Compatibility, Mobile First Design</p>
+                            <p>♥︎ Familiarity with design tools like Adobe XD, Sketch, or Figma</p>
                         </div>
                     </li>
                     <li className={styles.resumeItem}>
                         {/* <img src={experienceIcon} alt="Experience icon" className={styles.icon} /> */}
                         <div className={styles.resumeItemText}>
-                            <h3>Experience</h3>
-                            <p>Details about your professional experience...</p>
-                        </div>
-                    </li>
-                    <li className={styles.resumeItem}>
-                        {/* <img src={skillsIcon} alt="Skills icon" className={styles.icon} /> */}
-                        <div className={styles.resumeItemText}>
-                            <h3>Skills</h3>
-                            <p>A list of your relevant skills...</p>
+                            <h3>Backend Proficiencies</h3>
+                            <p>♥︎ Node.js, Python, Java</p>
+                            <p>♥︎ Express.js for Node</p>
+                            <p>♥︎ Relational Databases (MySQL, SQL Server)</p>
                         </div>
                     </li>
                 </ul>

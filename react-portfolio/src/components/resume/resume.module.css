@@ -35,7 +35,7 @@
 }
 
 .resumeItem {
-  background: var(--color-bkgd-light); /* Define this variable in your vars.css */
+  background: var(--color-bkgd-light); 
   border-radius: 10px;
   padding: 20px;
   display: flex;
@@ -59,13 +59,13 @@
 }
 
 .icon {
-  width: 40px; /* Adjust size as needed */
+  width: 40px; 
   height: auto;
 }
 
 .downloadButton {
   text-decoration: none;
-  background-color: var(--color-accent); /* Define this variable in your vars.css */
+  background-color: var(--color-bkgd); 
   color: white;
   border: none;
   border-radius: 5px;
@@ -78,7 +78,7 @@
 }
 
 .downloadButton:hover {
-  background-color: var(--color-accent-dark); /* Define this variable in your vars.css */
+  background-color: var(--color-dark); 
 }
 
 /* Responsive design adjustments */
