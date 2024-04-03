@@ -1,0 +1,104 @@
+/* resume.module.css */
+@import "../../vars.css";
+
+.container {
+  background-color: rgba(25, 55, 109, 0.5);
+  border-radius: 15px;
+  padding: 50px;
+  margin: 50px 10%;
+  color: var(--color-text);
+  z-index: 1;
+}
+
+.title {
+  color: var(--color-text);
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resumeItems {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.resumeItem {
+  background: var(--color-bkgd-light); /* Define this variable in your vars.css */
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.resumeItemText {
+  flex: 1;
+}
+
+.resumeItem h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resumeItem p {
+  font-size: 18px;
+}
+
+.icon {
+  width: 40px; /* Adjust size as needed */
+  height: auto;
+}
+
+.downloadButton {
+  text-decoration: none;
+  background-color: var(--color-accent); /* Define this variable in your vars.css */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.downloadButton:hover {
+  background-color: var(--color-accent-dark); /* Define this variable in your vars.css */
+}
+
+/* Responsive design adjustments */
+@media screen and (max-width: 830px) {
+  .container {
+    margin: 50px 5%;
+    padding: 30px;
+  }
+
+  .resumeItems {
+    gap: 10px;
+  }
+
+  .resumeItem {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .downloadButton {
+    width: 100%;
+    text-align: center;
+  }
+}
