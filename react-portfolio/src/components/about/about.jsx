@@ -18,7 +18,7 @@ export const About = () => {
       />
    <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={pointer} alt="Cursor icon" className={styles.cursor} />
+            {/* <img src={pointer} alt="Cursor icon" className={styles.cursor} /> */}
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
@@ -28,7 +28,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={servers} alt="Server icon"className={styles.server}/>
+            {/* <img src={servers} alt="Server icon"className={styles.server}/> */}
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
@@ -38,7 +38,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={webDesign} alt="UI icon" className={styles.ui} />
+            {/* <img src={webDesign} alt="UI icon" className={styles.ui} /> */}
             <div className={styles.aboutItemText}>
               <h3>UI/UX Designer</h3>
               <p>

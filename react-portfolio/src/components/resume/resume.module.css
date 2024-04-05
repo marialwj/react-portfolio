@@ -13,10 +13,10 @@
 .title {
   color: var(--color-text);
   margin-bottom: 30px;
-  font-size: 35px;
+  font-size: 55px;
   font-weight: 700;
-  text-align: center;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .content {
