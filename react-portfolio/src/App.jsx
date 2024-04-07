@@ -3,6 +3,7 @@ import {About} from './components/about/about.jsx';
 import { Navbar } from './components/navbar/navbar.jsx';
 import { Intro } from './components/intro/intro.jsx';
 import { Resume } from './components/resume/resume.jsx';
+import { Projects } from './components/projects/projects.jsx';
 
 function App() {
   return <div className={styles.App}>
@@ -10,6 +11,7 @@ function App() {
     <Intro/>
     <About/>
     <Resume/>
+    <Projects/>
   </div>
   
 }
