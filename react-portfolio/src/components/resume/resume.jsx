@@ -1,15 +1,14 @@
 // resume.jsx
 import React from 'react';
 import styles from './resume.module.css'; // You can create a new CSS module or reuse the about.module.css
-// import educationIcon from '../../assets/education-icon.png'; // Replace with your actual icons and images
-// import experienceIcon from '../../assets/experience-icon.png';
-// import skillsIcon from '../../assets/skills-icon.png';
 import resumePdf from '../../assets/resume.pdf'; // Link to your resume PDF
+// import memojiHeart from '../../assets/memoji-heart.png'; // Link to your memoji image
 
 export const Resume = () => {
     return (
         <section className={styles.container} id="resume">
             <h2 className={styles.title}>Resume/Proficiencies</h2>
+            {/* <img src={memojiHeart} alt="memoji" className={styles.resumeImage}/> */}
             <div className={styles.content}>
                 <ul className={styles.resumeItems}>
                     <li className={styles.resumeItem}>

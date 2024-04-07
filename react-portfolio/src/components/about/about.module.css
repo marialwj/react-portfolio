@@ -65,20 +65,40 @@
 
 @media screen and (max-width: 830px) {
   .container {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 20px; /* Reduced padding */
+    margin-top: 20px; /* Adjust the top margin if needed */
   }
 
   .content {
     flex-direction: column;
+    align-items: center; 
+  }
+
+  .aboutImage {
+    width: 80%; 
+    margin-bottom: 20px; 
   }
 
   .aboutItems {
-    margin-top: 29px;
+    width: 100%; 
+    margin-top: 20px; 
   }
 
   .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 15px; 
+    margin-bottom: 15px; 
+  }
+
+  .aboutItem h3 {
+    font-size: 24px; 
+  }
+
+  .aboutItem p {
+    font-size: 16px; 
+  }
+
+  .cursor, .server, .ui { 
+    width: 30px; 
+    height: auto; 
   }
 }
