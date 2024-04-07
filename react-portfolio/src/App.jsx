@@ -4,6 +4,7 @@ import { Navbar } from './components/navbar/navbar.jsx';
 import { Intro } from './components/intro/intro.jsx';
 import { Resume } from './components/resume/resume.jsx';
 import { Projects } from './components/projects/projects.jsx';
+import { Contact } from './components/contact/contact.jsx';
 
 function App() {
   return <div className={styles.App}>
@@ -12,6 +13,7 @@ function App() {
     <About/>
     <Resume/>
     <Projects/>
+    <Contact/>
   </div>
   
 }
