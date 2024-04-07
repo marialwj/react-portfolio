@@ -1,9 +1,7 @@
 import React from "react";
 import styles from "./about.module.css"
 import memojiHi from "../../assets/memoji-hi.png"
-import webDesign from "../../assets/web-design.png"
-import servers from "../../assets/servers.png"
-import pointer from "../../assets/pointer.png"
+
 
 
 
