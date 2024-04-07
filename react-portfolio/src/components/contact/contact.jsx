@@ -1,5 +1,8 @@
 import React from "react";
 import styles from "./contact.module.css";
+import linkedin from "../../assets/linkedinIcon.png";
+import github from "../../assets/githubIcon.png";
+import email from "../../assets/emailIcon.png";
 
 
 export const Contact = () => {
@@ -11,18 +14,18 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={"/src/assets/emailIcon.png"} alt="Email icon" />
+          <img src={email} alt="Email icon" />
           <a href="mailto:mariaa.georgy@email.com">mariaa.georgy@email.com</a>
         </li>
         <li className={styles.link}>
           <img
-            src={"src/assets/linkedinIcon.png"}
+            src={linkedin}
             alt="LinkedIn icon"
           />
           <a href="https://www.linkedin.com/in/mariageorgy/">linkedin.com/in/mariageorgy/</a>
         </li>
         <li className={styles.link}>
-          <img src={"src/assets/githubIcon.png"} alt="Github icon" />
+          <img src={github} alt="Github icon" />
           <a href="https://www.github.com/marialwj">github.com/marialwj</a>
         </li>
       </ul>
