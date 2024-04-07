@@ -46,9 +46,9 @@ npm install
 npm run dev
 ```
 ## Screenshots
-![Screenshot 1](readme-assets/Screenshot 2024-04-07 at 2.02.10 PM.png)
-![Screenshot 2](readme-assets/Screenshot 2024-04-07 at 2.02.19 PM.png)
-![Screenshot 3](readme-assets/Screenshot 2024-04-07 at 2.02.29 PM.png)
+![Screenshot 1](../readme-assets/Screenshot 2024-04-07 at 2.02.10 PM.png)
+![Screenshot 2](../readme-assets/Screenshot 2024-04-07 at 2.02.19 PM.png)
+![Screenshot 3](../readme-assets/Screenshot 2024-04-07 at 2.02.29 PM.png)
 
 ## Acknowledgments
 A special thank you to all collaborators and mentors who have provided feedback and support throughout the development of this portfolio.
